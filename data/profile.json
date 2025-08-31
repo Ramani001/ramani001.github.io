@@ -1,0 +1,447 @@
+{
+  "profile": {
+    "name": "Ramani Mahidara",
+    "title": "Certified Salesforce Administrator",
+    "organization": "Access Intelligence, MD | 4+ Years Experience | Mason, OH",
+    "profileImage": "images/ramani_profile.jpg",
+    "cvPath": "assets/Ramani_Mahidara_Resume.pdf",
+    "metrics": [
+      "4+ Years Experience",
+      "25% Cost Reduction",
+      "30% Faster Resolution",
+      "20% Revenue Growth"
+    ]
+  },
+  
+  "bio": {
+    "introduction": "<span class=\"highlight\">Certified Salesforce Administrator</span> with over <span class=\"highlight\">4 years of experience</span> driving <span class=\"highlight\">30% efficiency gains</span> through automation and optimization of Salesforce Sales Cloud and Service Cloud. Expert in configuration, automation, and integrations with proven track record of <span class=\"highlight\">reducing manual effort by 25%</span> and <span class=\"highlight\">improving forecasting accuracy by 25%</span>.",
+    "background": "Skilled in developing <span class=\"highlight\">Flows, Process Builder, Workflow Rules, and Apex triggers</span> to streamline operations and ensure scalability. Strong expertise in <span class=\"highlight\">data integrity management</span> using Data Loader and DemandTools, and advanced <span class=\"highlight\">reporting and analytics</span> through Salesforce Dashboards, Google Looker Studio, and BigQuery.",
+    "researchFocus": "Proven success in driving business impact by integrating third-party applications such as <span class=\"highlight\">Conga, Adobe Sign, and Accounting Seed</span> to automate contracts, proposals, and financial workflows. Recognized for delivering measurable results including <span class=\"highlight\">35% faster case resolution</span>, <span class=\"highlight\">30% reduced quote errors</span>, and <span class=\"highlight\">20% improved conversion rates</span> while aligning Salesforce solutions with organizational goals."
+  },
+  
+  "contact": {
+    "email": "ramani02.m@gmail.com",
+    "phone": "+1 513-816-4098",
+    "location": "Mason, OH",
+    "linkedin": "https://www.linkedin.com/in/ramanimahi/",
+    "trailhead": "https://trailblazer.me/id/rmahidara",
+    "github": null,
+    "googleScholar": null,
+    "twitter": null,
+    "website": null
+  },
+  
+  "navigation": [
+    {"label": "About", "href": "#banner"},
+    {"label": "Experience", "href": "#publications"},
+    {"label": "Projects", "href": "#projects"},
+    {"label": "Skills", "href": "#skills"},
+    {"label": "Certifications", "href": "#certifications"},
+    {"label": "Education", "href": "#education"},
+    {"label": "Contact", "href": "mailto:ramani02.m@gmail.com"}
+  ],
+  
+  "publications": [
+    {
+      "id": "access-intelligence",
+      "title": "Salesforce Administrator",
+      "authors": "Access Intelligence | Maryland, USA",
+      "venue": "Apr 2023 - Present",
+      "description": "<div class='impact-metrics'><span class='metric'>25% Manual Effort Reduction</span><span class='metric'>30% Quote Error Reduction</span><span class='metric'>20% Conversion Boost</span><span class='metric'>40% Faster Reporting</span></div><br/><strong>Key Achievements:</strong><br/>• <strong>Optimized Salesforce operations</strong> by administering Sales Cloud (user roles, territories, profiles, workflows, Lightning pages) and integrating Adobe Sign, Conga, and Accounting Seed—<span class='highlight'>streamlining processes and cutting manual effort by 25%</span><br/>• <strong>Enhanced sales efficiency</strong> through Product & Price Book management, <span class='highlight'>reducing quote errors by 30%</span>, automating lead-to-quote workflows, and implementing sales engagement cadences that <span class='highlight'>boosted prospect conversion by 20%</span><br/>• <strong>Drove process automation</strong> by designing and migrating workflows/process builders into advanced Flows (record-triggered, screen, scheduled), <span class='highlight'>eliminating 90% of legacy workflow issues</span> and ensuring scalability<br/>• <strong>Delivered actionable insights</strong> via Salesforce reports, DemandTools data integrity management, and Google Looker dashboards (Sales Goals, Forecasting, Revenue Pacing), <span class='highlight'>improving forecasting accuracy by 25%</span> and <span class='highlight'>reducing executive reporting time by 40%</span>",
+      "image": "images/access-intelligence-logo.png",
+      "links": {
+        "paper": null,
+        "github": null,
+        "status": null
+      }
+    },
+    {
+      "id": "company-2",
+      "title": "Salesforce Administrator",
+      "authors": "MetLife | Ohio, USA",
+      "venue": "Jan 2022 - Mar 2023",
+      "description": "<div class='impact-metrics'><span class='metric'>30% Faster Resolution</span><span class='metric'>15% CSAT Increase</span><span class='metric'>20% Adoption Growth</span><span class='metric'>25% Accuracy Boost</span></div><br/><strong>Key Achievements:</strong><br/>• <strong>Administered and optimized</strong> Salesforce Sales & Service Cloud, managing user roles, security, workflows, and automation to streamline operations—<span class='highlight'>improving platform adoption by 20%</span> and <span class='highlight'>reducing manual effort by 25%</span><br/>• <strong>Enhanced customer support efficiency</strong> by configuring case management (queues, email-to-case, escalation rules) and automating service processes, <span class='highlight'>reducing case resolution time by 30%</span> and <span class='highlight'>boosting customer satisfaction scores by 15%</span><br/>• <strong>Delivered data-driven insights</strong> by ensuring data integrity and building custom reports/dashboards, while training users and gathering requirements—<span class='highlight'>increasing reporting accuracy by 25%</span> and driving higher user adoption",
+      "image": "images/metlife-logo.png",
+      "links": {
+        "paper": null,
+        "github": null,
+        "status": null
+      }
+    },
+    {
+      "id": "stryker",
+      "title": "Salesforce Administrator",
+      "authors": "Stryker | Ohio, USA",
+      "venue": "Dec 2019 - Dec 2021",
+      "description": "<div class='impact-metrics'><span class='metric'>30% Task Automation</span><span class='metric'>99% Data Accuracy</span><span class='metric'>25% Process Efficiency</span><span class='metric'>20% Reporting Accuracy</span></div><br/><strong>Key Achievements:</strong><br/>• <strong>Automated Salesforce workflows</strong> by developing Process Builder flows, Apex triggers, approval processes, and business logic rules—<span class='highlight'>streamlining operations, reducing manual tasks by 30%</span>, and <span class='highlight'>improving process efficiency by 25%</span><br/>• <strong>Customized and maintained</strong> Salesforce CRM (Sales & Service Cloud) with Visualforce pages, custom objects, security controls, validation rules, and large-scale data migrations using Data Loader and SQL Server—<span class='highlight'>ensuring 99% data accuracy</span> and system stability<br/>• <strong>Delivered insights and adoption</strong> by building reports/dashboards, cleansing data, and conducting stakeholder sessions—<span class='highlight'>boosting reporting accuracy by 20%</span> and <span class='highlight'>increasing user adoption by 15%</span>",
+      "image": "images/stryker-logo.png",
+      "links": {
+        "paper": null,
+        "github": null,
+        "status": null
+      }
+    }
+  ],
+  
+  "skills": {
+    "salesforceTechnologies": [
+      "Sales Cloud",
+      "Service Cloud", 
+      "CPQ",
+      "Workflow & Approvals",
+      "Dashboards",
+      "Email Services",
+      "Formula Fields",
+      "Custom Objects",
+      "Salesforce Lightning",
+      "Validation Rules",
+      "Process Builder",
+      "Security Controls",
+      "Pick Lists",
+      "Dependent Pick Lists",
+      "Lookup & Master-Detail Relationships",
+      "Junction Objects",
+      "Field Dependencies",
+      "Page Layouts",
+      "Permission Sets",
+      "Sharing Rules",
+      "Record Types",
+      "Territory Management"
+    ],
+    "integrationTools": [
+      "Workbench",
+      "Data Loader",
+      "Conga Queries",
+      "Conga Workflows",
+      "Conga Composer",
+      "Conga Proposal Generator",
+      "Adobe Sign",
+      "Accounting Seed",
+      "Demand Tools",
+      "NetSuite"
+    ],
+    "analyticsTools": [
+      "Google Looker Studio",
+      "Google BigQuery",
+      "SQL",
+      "SOQL",
+      "SOSL",
+      "Advanced Excel",
+      "Reports & Dashboards",
+      "Custom Reports",
+      "Data Analysis"
+    ],
+    "otherTools": [
+      "MS Office",
+      "Microsoft Teams",
+      "Atlassian (Jira)",
+      "Slack"
+    ],
+    "softSkills": [
+      "Cross-functional Collaboration",
+      "User Training & Adoption",
+      "Problem Solving",
+      "Business Analysis",
+      "Requirements Gathering",
+      "Documentation",
+      "UAT Coordination",
+      "Stakeholder Management",
+      "Process Improvement",
+      "Detail-Oriented",
+      "Self-Motivated",
+      "Rapid Learning"
+    ]
+  },
+  
+  "projects": [
+    {
+      "id": "sales-cloud-optimization",
+      "title": "Salesforce Sales Cloud Optimization & Automation",
+      "year": "2023-2024",
+      "shortDescription": "Achieved 30% reduction in quote errors and 20% conversion boost through comprehensive Sales Cloud optimization.",
+      "detailedDescription": "<div class='project-metrics'><span class='metric'>30% Quote Error Reduction</span><span class='metric'>20% Conversion Boost</span><span class='metric'>25% Forecasting Accuracy</span><span class='metric'>40% Faster Reports</span></div><br/>Administered and customized Salesforce Sales & Service Cloud (users, roles, profiles, record types, security, custom objects) while designing advanced automations (Flows, Process Builder, Workflow, Approvals) to streamline lead management, opportunity tracking, and Product & Price Book setup. Delivered data-driven insights by building Reports, Dashboards, and Google Looker Studio visualizations with BigQuery, improving revenue forecasting accuracy by 25% and cutting executive reporting time by 40%.",
+      "media": {
+        "type": "image",
+        "src": "images/sales-dashboard.png",
+        "poster": null
+      },
+      "techStack": [
+        "Sales Cloud",
+        "Lead Management",
+        "Opportunity Tracking",
+        "Product & Price Books",
+        "Campaign Management",
+        "CPQ Concepts",
+        "Sales Engagement"
+      ],
+      "metrics": [
+        {"value": "30%", "label": "Faster Processing"},
+        {"value": "20%", "label": "Revenue Growth"},
+        {"value": "$2M+", "label": "Revenue Tracked"}
+      ],
+      "links": {
+        "website": null,
+        "github": null,
+        "details": "#"
+      }
+    },
+    {
+      "id": "service-cloud-automation",
+      "title": "Salesforce Service Cloud Process Automation",
+      "year": "2022-2023",
+      "shortDescription": "Reduced case resolution time by 35% through comprehensive Service Cloud automation.",
+      "detailedDescription": "<div class='project-metrics'><span class='metric'>35% Faster Resolution</span><span class='metric'>15% Platform Adoption</span><span class='metric'>Email-to-Case Automation</span><span class='metric'>Improved Compliance</span></div><br/>Configured and maintained Service Cloud (Case workflows, Email-to-Case, queues, escalation/assignment rules) to streamline customer support, reducing case resolution time by 35%. Developed automation solutions with Flows, Process Builders, and outbound messages for campaign management, approvals, and email alerts. Ensured data integrity and adoption using DemandTools & Data Loader for cleansing/migration and conducting user training sessions, resulting in 15% higher platform adoption and improved compliance.",
+      "media": {
+        "type": "image",
+        "src": "images/service-dashboard.png",
+        "poster": null
+      },
+      "techStack": [
+        "Service Cloud",
+        "Case Management",
+        "Email-to-Case",
+        "Assignment Rules",
+        "Escalation Rules",
+        "Queue Management",
+        "Workflow Automation"
+      ],
+      "metrics": [
+        {"value": "35%", "label": "Faster Resolution"},
+        {"value": "15%", "label": "Platform Adoption"},
+        {"value": "100%", "label": "Uptime"}
+      ],
+      "links": {
+        "website": null,
+        "github": null,
+        "details": "#"
+      }
+    },
+    {
+      "id": "flow-migration",
+      "title": "Enterprise Flow Migration & Process Automation",
+      "year": "2023-2024",
+      "shortDescription": "Eliminated 90% of legacy workflow issues through strategic Flow migration.",
+      "detailedDescription": "<div class='project-metrics'><span class='metric'>90% Issue Reduction</span><span class='metric'>Enhanced Scalability</span><span class='metric'>25% Process Efficiency</span><span class='metric'>Zero Technical Debt</span></div><br/>Designed and migrated old workflows and process builders into modern Salesforce Flows, creating various types including screen flows, record-triggered flows, and scheduled flows. Modified existing process builders to meet new business requirements while ensuring optimal performance and maintainability. This migration improved system performance, reduced technical debt significantly, and positioned the platform for future scalability.",
+      "media": {
+        "type": "image",
+        "src": "images/flow-builder.png",
+        "poster": null
+      },
+      "techStack": [
+        "Salesforce Flow",
+        "Screen Flows",
+        "Record-Triggered Flows",
+        "Scheduled Flows",
+        "Process Builder",
+        "Workflow Rules",
+        "Automation Best Practices"
+      ],
+      "metrics": [
+        {"value": "90%", "label": "Issue Reduction"},
+        {"value": "25%", "label": "Process Efficiency"},
+        {"value": "Zero", "label": "Technical Debt"}
+      ],
+      "links": {
+        "website": null,
+        "github": null,
+        "details": "#"
+      }
+    },
+    {
+      "id": "data-integrity-management",
+      "title": "Enterprise Data Integrity Management",
+      "year": "2023-2024",
+      "shortDescription": "Achieved 99% data accuracy through comprehensive data quality initiatives.",
+      "detailedDescription": "<div class='project-metrics'><span class='metric'>99% Data Accuracy</span><span class='metric'>Zero Duplicates</span><span class='metric'>Large-Scale Migration</span><span class='metric'>DemandTools Expert</span></div><br/>Maintained data integrity by leveraging Data Loader for large-scale data cleansing, transformation, and migration activities. Worked on all modules of DemandTools including Import, Update, Dedupe, Delete, Reassign, Modify & Transform to maintain data integrity in Salesforce. Implemented strategies for ongoing data quality management and duplicate prevention, ensuring 99% data accuracy across the platform.",
+      "media": {
+        "type": "image",
+        "src": "images/data-quality.png",
+        "poster": null
+      },
+      "techStack": [
+        "Data Loader",
+        "DemandTools",
+        "Data Cleansing",
+        "Data Migration",
+        "Duplicate Management",
+        "Data Transformation",
+        "SOQL/SOSL"
+      ],
+      "metrics": [
+        {"value": "98%", "label": "Data Accuracy"},
+        {"value": "25%", "label": "Cost Reduction"},
+        {"value": "500K+", "label": "Records Managed"}
+      ],
+      "links": {
+        "website": null,
+        "github": null,
+        "details": "#"
+      }
+    },
+    {
+      "id": "analytics-dashboard-suite",
+      "title": "Executive Analytics Dashboard Suite",
+      "year": "2024",
+      "shortDescription": "Reduced executive reporting time by 40% with real-time Looker Studio dashboards.",
+      "detailedDescription": "<div class='project-metrics'><span class='metric'>40% Faster Reporting</span><span class='metric'>Real-time Analytics</span><span class='metric'>C-Suite Dashboards</span><span class='metric'>25% Better Forecasting</span></div><br/>Designed and deployed Google Looker Studio dashboards utilizing BigQuery for diverse stakeholders, including C-suite, Sales, and Marketing teams. Developed interactive dashboards for Sales Goals, Budget & Forecast Pipeline, and Revenue Pacing. Translated complex data into clear visualizations that improved forecasting accuracy by 25% and reduced executive reporting time by 40%.",
+      "media": {
+        "type": "image",
+        "src": "images/looker-dashboard.png",
+        "poster": null
+      },
+      "techStack": [
+        "Google Looker Studio",
+        "BigQuery",
+        "SQL",
+        "Data Visualization",
+        "KPI Tracking",
+        "Real-time Analytics",
+        "Executive Reporting"
+      ],
+      "metrics": [
+        {"value": "40%", "label": "Faster Reporting"},
+        {"value": "25%", "label": "Better Forecasting"},
+        {"value": "Real-time", "label": "Analytics"}
+      ],
+      "links": {
+        "website": null,
+        "github": null,
+        "details": "#"
+      }
+    },
+    {
+      "id": "integration-automation-hub",
+      "title": "Multi-System Integration & Automation Hub",
+      "year": "2023-2024",
+      "shortDescription": "Automated contract and proposal workflows, cutting processing time by 50%.",
+      "detailedDescription": "<div class='project-metrics'><span class='metric'>50% Faster Processing</span><span class='metric'>3+ System Integrations</span><span class='metric'>Zero Manual Errors</span><span class='metric'>Automated Workflows</span></div><br/>Managed Adobe Sign integration and contract templates in Salesforce. Maintained Conga Managed Package solutions to streamline proposal generation and contract templates. Integrated Salesforce with external Sales system for automated commission payments. Created workflow processes for Accounting Seed, eliminating manual errors and reducing processing time by 50%.",
+      "media": {
+        "type": "image",
+        "src": "images/integration.png",
+        "poster": null
+      },
+      "techStack": [
+        "Adobe Sign",
+        "Conga Suite",
+        "Accounting Seed",
+        "API Integration",
+        "Contract Management",
+        "Document Generation",
+        "Workflow Automation"
+      ],
+      "metrics": [
+        {"value": "50%", "label": "Faster Processing"},
+        {"value": "Zero", "label": "Manual Errors"},
+        {"value": "3+", "label": "Systems Integrated"}
+      ],
+      "links": {
+        "website": null,
+        "github": null,
+        "details": "#"
+      }
+    },
+    {
+      "id": "user-training-adoption",
+      "title": "User Training & Platform Adoption Program",
+      "year": "2022-2024",
+      "shortDescription": "Drove 20% increase in platform adoption through comprehensive training program.",
+      "detailedDescription": "<div class='project-metrics'><span class='metric'>20% Adoption Increase</span><span class='metric'>100+ Users Trained</span><span class='metric'>Complete Documentation</span><span class='metric'>Ongoing Support</span></div><br/>Conducted training sessions for onboarding new users and feature adoption to existing Salesforce users. Developed and maintained comprehensive documentation on processes, policies, and help materials. Led stakeholder meetings to identify problems, resolve issues, and improve processes, resulting in 20% higher platform adoption and improved user satisfaction.",
+      "media": {
+        "type": "image",
+        "src": "images/training.png",
+        "poster": null
+      },
+      "techStack": [
+        "User Training",
+        "Documentation",
+        "Change Management",
+        "Platform Adoption",
+        "Process Documentation",
+        "Stakeholder Management"
+      ],
+      "metrics": [
+        {"value": "20%", "label": "Adoption Increase"},
+        {"value": "100+", "label": "Users Trained"},
+        {"value": "Full", "label": "Documentation"}
+      ],
+      "links": {
+        "website": null,
+        "github": null,
+        "details": "#"
+      }
+    }
+  ],
+  
+  "certifications": [
+    {
+      "name": "Salesforce Administrator ADM 201",
+      "issuer": "Salesforce",
+      "date": "January 2023",
+      "credentialId": "ADM-201",
+      "badgeImage": "images/badges/salesforce-admin-badge.png",
+      "verifyUrl": "https://trailhead.salesforce.com/credentials/administrator",
+      "description": "Certified Salesforce Administrator with expertise in configuration, user management, and security"
+    },
+    {
+      "name": "Google BigQuery & Looker Studio",
+      "issuer": "Google Cloud",
+      "date": "March 2023",
+      "credentialId": "GCP-BQ-2023",
+      "badgeImage": null,
+      "verifyUrl": null,
+      "description": "Advanced analytics and data visualization expertise"
+    },
+    {
+      "name": "Conga Suite Specialist",
+      "issuer": "Conga",
+      "date": "June 2023",
+      "credentialId": "CONGA-2023",
+      "badgeImage": null,
+      "verifyUrl": null,
+      "description": "Certified in Conga Composer, Workflows, and document automation"
+    }
+  ],
+  
+  "education": [
+    {
+      "degree": "Master's in Mathematics",
+      "institution": "Osmania University",
+      "location": "Hyderabad, India",
+      "year": null
+    },
+    {
+      "degree": "Diploma in Information Technology",
+      "institution": "CMC Limited",
+      "location": "Hyderabad, India",
+      "year": null
+    },
+    {
+      "degree": "Diploma in Software Technology",
+      "institution": "CMC Limited",
+      "location": "Hyderabad, India",
+      "year": null
+    },
+    {
+      "degree": "Bachelor's in Mathematics, Physics, and Chemistry",
+      "institution": "Andhra University",
+      "location": "Visakhapatnam, India",
+      "year": null
+    }
+  ],
+  
+  "siteConfig": {
+    "siteTitle": "Ramani Mahidara - Salesforce Administrator",
+    "favicon": null,
+    "themeColors": {
+      "primaryRed": "#00A1E0",
+      "lightRed": "#1589EE",
+      "darkRed": "#032E61",
+      "textDark": "#2b2d42",
+      "textLight": "#6c757d",
+      "bgLight": "#f8f9fa",
+      "white": "#ffffff"
+    },
+    "domain": "ramani-mahidara.com",
+    "googleAnalytics": null
+  }
+}

@@ -1,0 +1,1154 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<style>
+		/* Modern Clean Design */
+		:root {
+		  --primary-red: #C41230;
+		  --light-red: #e63946;
+		  --dark-red: #a01828;
+		  --text-dark: #2b2d42;
+		  --text-light: #6c757d;
+		  --bg-light: #f8f9fa;
+		  --white: #ffffff;
+		}
+
+		body {
+		  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		  line-height: 1.6;
+		  color: var(--text-dark);
+		}
+
+		/* Header Styling */
+		#header {
+		  background: var(--white);
+		  padding: 1rem 0;
+		  position: sticky;
+		  top: 0;
+		  z-index: 1000;
+		  border-bottom: 1px solid rgba(0,0,0,0.07);
+		  display: flex;
+		  align-items: center;
+		  justify-content: space-between;
+		}
+
+		#header .logo {
+		  color: var(--primary-red) !important;
+		  font-size: 1.5rem;
+		  font-weight: 700;
+		  text-decoration: none;
+		}
+
+		#header .icons {
+		  display: flex;
+		  align-items: center;
+		  gap: 1rem;
+		}
+
+		/* Navigation Menu */
+		.nav-menu {
+		  list-style: none;
+		  display: flex;
+		  align-items: center;
+		  gap: 1.5rem;
+		  margin: 0;
+		  padding: 0;
+		}
+
+		.nav-menu li a {
+		  color: var(--text-dark);
+		  text-decoration: none;
+		  font-weight: 500;
+		  font-size: 0.95rem;
+		  position: relative;
+		  padding: 0.25rem 0;
+		  transition: color 0.2s ease;
+		}
+
+		.nav-menu li a:hover {
+		  color: var(--primary-red);
+		}
+
+		.nav-menu li a::after {
+		  content: '';
+		  position: absolute;
+		  left: 0;
+		  bottom: -4px;
+		  height: 2px;
+		  width: 0;
+		  background: linear-gradient(135deg, var(--primary-red) 0%, var(--light-red) 100%);
+		  transition: width 0.2s ease;
+		}
+
+		.nav-menu li a:hover::after {
+		  width: 100%;
+		}
+
+		/* CV Button */
+		.nav-cv-btn {
+		  background: linear-gradient(135deg, var(--primary-red) 0%, var(--light-red) 100%);
+		  color: #fff !important;
+		  padding: 0.55rem 1.1rem;
+		  border-radius: 22px;
+		  text-decoration: none;
+		  font-weight: 600;
+		  box-shadow: 0 2px 8px rgba(196,18,48,0.18);
+		  transition: transform 0.2s ease, box-shadow 0.2s ease;
+		}
+
+		.nav-cv-btn:hover {
+		  transform: translateY(-2px);
+		  box-shadow: 0 6px 18px rgba(196,18,48,0.25);
+		}
+
+		/* Mobile menu toggle */
+		.mobile-menu-toggle {
+		  display: none;
+		  flex-direction: column;
+		  gap: 4px;
+		  cursor: pointer;
+		  padding: 4px;
+		  margin-left: 0.5rem;
+		}
+
+		.mobile-menu-toggle span {
+		  width: 24px;
+		  height: 2px;
+		  background: var(--text-dark);
+		  border-radius: 2px;
+		}
+
+		/* Banner Section */
+		#banner {
+		  background: var(--white);
+		  padding: 4rem 0;
+		  margin-bottom: 1rem;
+		}
+
+		#banner .banner-inner {
+		  display: flex;
+		  align-items: center;
+		  justify-content: center;
+		  gap: 3rem;
+		  max-width: 1200px;
+		  margin: 0 auto;
+		  padding: 0 2rem;
+		}
+
+		#banner .content {
+		  flex: 0 1 600px;
+		  max-width: 600px;
+		}
+
+		#banner h1 {
+		  color: var(--primary-red);
+		  font-size: 3rem;
+		  font-weight: 700;
+		  margin-bottom: 0.5rem;
+		  line-height: 1.2;
+		}
+
+		#banner h2 {
+		  color: var(--text-light);
+		  font-size: 1.3rem;
+		  font-weight: 400;
+		  margin-bottom: 2rem;
+		}
+
+		#banner p {
+		  font-size: 1.1rem;
+		  line-height: 1.8;
+		  margin-bottom: 1.5rem;
+		  color: var(--text-dark);
+		}
+
+		#banner .highlight {
+		  color: var(--primary-red);
+		  font-weight: 600;
+		}
+
+		#banner .image {
+		  flex: 0 0 280px;
+		}
+
+		#banner .image img {
+		  width: 280px;
+		  height: 280px;
+		  border-radius: 50%;
+		  border: 4px solid var(--primary-red);
+		  box-shadow: 0 10px 30px rgba(196, 18, 48, 0.2);
+		  object-fit: cover;
+		}
+
+		/* Main Content */
+		#main .inner {
+		  max-width: 1200px;
+		  margin: 0 auto;
+		  padding: 0 2rem;
+		}
+
+		/* Section Headers */
+		.major h2 {
+		  color: var(--primary-red);
+		  font-size: 1.5rem;
+		  /* font-weight: 700; */
+		  text-align: center;
+		  margin-bottom: 3rem;
+		  position: relative;
+		}
+
+		/* .major h2::after {
+		  content: '';
+		  position: absolute;
+		  bottom: -10px;
+		  left: 50%;
+		  transform: translateX(-50%);
+		  width: 60px;
+		  height: 3px;
+		  background: var(--primary-red);
+		  border-radius: 2px;
+		} */
+
+		/* Publications header alignment */
+		#publications header.major {
+		  max-width: 1000px;
+		  margin: 0 auto 1.25rem auto;
+		}
+
+		#publications header.major h2 {
+		  text-align: left;
+		  margin-bottom: 1.25rem;
+		}
+
+		#publications header.major h2::after {
+		  left: 0;
+		  transform: none;
+		}
+
+		/* Projects header alignment */
+		#projects header.major {
+		  max-width: 1000px;
+		  margin: 0 auto 1.25rem auto;
+		}
+
+		#projects header.major h2 {
+		  text-align: left;
+		  margin-bottom: 1.25rem;
+		}
+
+		/* Research Focus Section */
+		.research-focus {
+		  background: var(--white);
+		  padding: 2rem;
+		  margin: 2rem auto 3rem auto;
+		  text-align: center;
+		  max-width: 1000px;
+		  border-radius: 10px;
+		  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+		}
+
+		.research-focus h3 {
+		  color: var(--primary-red);
+		  font-size: 1.8rem;
+		  margin-bottom: 1.5rem;
+		  font-weight: 600;
+		}
+
+		.research-focus p {
+		  font-size: 1.1rem;
+		  line-height: 1.8;
+		  color: var(--text-dark);
+		  max-width: 900px;
+		  margin: 0 auto;
+		}
+
+		/* Ultra-Minimalist Projects Section */
+		.projects-grid {
+		  display: grid;
+		  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+		  gap: 3rem;
+		  margin-bottom: 4rem;
+		  padding: 0 2rem;
+		}
+
+		.project-card {
+		  background: transparent;
+		  border: 1px solid rgba(0,0,0,0.05);
+		  padding: 2.5rem;
+		  border-radius: 0;
+		  transition: border-color 0.3s ease;
+		}
+
+		.project-card:hover {
+		  border-color: rgba(196, 18, 48, 0.2);
+		}
+
+		.project-title {
+		  font-size: 1.1rem;
+		  font-weight: 400;
+		  color: var(--text-dark);
+		  letter-spacing: 0.5px;
+		  margin-bottom: 1.5rem;
+		}
+
+		.project-year {
+		  opacity: 0.4;
+		  font-size: 0.85rem;
+		  font-weight: 300;
+		  margin-left: 0.5rem;
+		}
+
+		.project-metrics {
+		  display: flex;
+		  flex-wrap: wrap;
+		  gap: 2rem;
+		  margin-bottom: 1.5rem;
+		}
+
+		.metric-item {
+		  flex: 0 0 auto;
+		}
+
+		.metric-badge {
+		  font-size: 1.8rem;
+		  font-weight: 300;
+		  color: var(--primary-red);
+		  line-height: 1;
+		  display: block;
+		}
+
+		.metric-label {
+		  font-size: 0.7rem;
+		  color: #999;
+		  text-transform: uppercase;
+		  letter-spacing: 1px;
+		  margin-top: 0.25rem;
+		  display: block;
+		}
+
+		.project-description {
+		  color: #777;
+		  font-size: 0.9rem;
+		  line-height: 1.8;
+		  margin-bottom: 1.5rem;
+		}
+
+		.tech-pills {
+		  display: flex;
+		  flex-wrap: wrap;
+		  gap: 0.5rem;
+		}
+
+		.tech-pill {
+		  font-size: 0.7rem;
+		  padding: 0.2rem 0.6rem;
+		  border: 1px solid rgba(0,0,0,0.08);
+		  border-radius: 12px;
+		  color: #666;
+		  background: transparent;
+		}
+		
+		/* Hide old project card elements */
+		.project-card .card-inner,
+		.project-card .card-front,
+		.project-card .card-back,
+		.project-card .media,
+		.project-card .image,
+		.project-card .actions,
+		.project-card .button {
+		  display: none !important;
+		}
+
+		/* Publications Section */
+		.publications-grid {
+		  display: grid;
+		  grid-template-columns: 1fr;
+		  gap: 1.75rem;
+		  margin: 0 auto 3rem auto;
+		  max-width: 1000px;
+		}
+
+		/* Align publications intro paragraph with same width as list */
+		#publications > p {
+		  max-width: 1000px;
+		  margin: 0 auto 1.5rem auto;
+		  line-height: 1.7;
+		}
+
+		.publication-card {
+		  background: transparent;
+		  border-radius: 0;
+		  overflow: visible;
+		  box-shadow: none;
+		  transition: background 0.2s ease;
+		  display: flex;
+		  flex-direction: row;
+		  padding-bottom: 1.25rem;
+		  border-bottom: none;
+		}
+
+		.publication-card:hover {
+		  background: rgba(196, 18, 48, 0.02);
+		}
+
+		.publication-card .image {
+		  flex: 0 0 120px;
+		  height: 80px;
+		  overflow: hidden;
+		  display: flex;
+		  align-items: center;
+		  justify-content: center;
+		  border: 1px solid rgba(0,0,0,0.05);
+		  border-radius: 0;
+		  background: transparent;
+		  margin-right: 1.5rem;
+		  padding: 1rem;
+		}
+
+		.publication-card .image img {
+		  width: auto;
+		  max-width: 100%;
+		  max-height: 100%;
+		  object-fit: contain;
+		  opacity: 0.6;
+		  transition: opacity 0.3s ease;
+		  filter: grayscale(100%);
+		}
+		
+		.publication-card:hover .image img {
+		  opacity: 1;
+		  filter: grayscale(0%);
+		}
+
+		.publication-card .content {
+		  flex: 1;
+		  padding: 0;
+		}
+
+		.publication-card h3 {
+		  color: var(--text-dark);
+		  font-size: 1.1rem;
+		  margin: 0 0 0.4rem 0;
+		  font-weight: 700;
+		}
+
+		.publication-card .authors {
+		  color: var(--text-light);
+		  font-style: italic;
+		  margin: 0 0 0.6rem 0;
+		}
+
+		.publication-card .description {
+		  color: var(--text-dark);
+		  line-height: 1.6;
+		  margin: 0 0 0.6rem 0;
+		}
+
+		/* Minimal inline links in publications */
+		.publication-card .actions {
+		  display: block;
+		}
+
+		.publication-card .actions li {
+		  display: inline;
+		}
+
+		.publication-card .actions li + li::before {
+		  content: ' / ';
+		  color: var(--text-light);
+		}
+
+		.publication-card .actions .button {
+		  background: none !important;
+		  color: var(--primary-red) !important;
+		  padding: 0 !important;
+		  border: none !important;
+		  border-radius: 0 !important;
+		  box-shadow: none !important;
+		  font-weight: 600 !important;
+		  text-decoration: underline;
+		}
+
+		/* Minimal Projects List */
+		.projects-list {
+		  max-width: 1000px;
+		  margin: 0 auto 3rem auto;
+		  display: grid;
+		  grid-template-columns: 1fr;
+		  gap: 1.5rem;
+		}
+
+		.project-item {
+		  display: flex;
+		  flex-direction: column;
+		  gap: 0.4rem;
+		  padding-bottom: 1rem;
+		  border-bottom: none;
+		}
+
+		.project-item h3 {
+		  color: var(--text-dark);
+		  font-size: 1.1rem;
+		  margin: 0;
+		  font-weight: 700;
+		}
+
+		.project-year {
+		  display: inline-block;
+		  margin-left: 0.5rem;
+		  font-size: 0.75rem;
+		  color: var(--primary-red);
+		  background: rgba(196, 18, 48, 0.08);
+		  padding: 0.15rem 0.5rem;
+		  border-radius: 999px;
+		  vertical-align: middle;
+		}
+
+		.project-actions { display: block; }
+		.project-actions li { display: inline; }
+		.project-actions li + li::before { content: ' / '; color: var(--text-light); }
+		.project-actions .project-link { color: var(--primary-red); text-decoration: underline; font-weight: 600; }
+
+		/* Project link styling */
+		.project-card .actions {
+		  display: flex;
+		  gap: 1rem;
+		  flex-wrap: wrap;
+		}
+
+		.project-card .actions li {
+		  display: inline;
+		}
+
+		.project-card .actions li + li::before {
+		  content: ' / ';
+		  color: var(--text-light);
+		  margin: 0 0.5rem;
+		}
+
+		.project-card .project-link {
+		  color: var(--primary-red);
+		  text-decoration: none;
+		  font-weight: 600;
+		  font-size: 0.9rem;
+		  position: relative;
+		  transition: color 0.2s ease;
+		}
+
+		.project-card .project-link:hover {
+		  color: var(--dark-red);
+		}
+
+		.project-card .project-link::after {
+		  content: '';
+		  position: absolute;
+		  left: 0;
+		  bottom: -2px;
+		  height: 1px;
+		  width: 0;
+		  background: var(--primary-red);
+		  transition: width 0.2s ease;
+		}
+
+		.project-card .project-link:hover::after {
+		  width: 100%;
+		}
+
+		/* Ultra-Minimalist Skills Section */
+		#skills {
+		  padding: 4rem 0;
+		  background: transparent;
+		}
+
+		.skills-container {
+		  max-width: 1000px;
+		  margin: 0 auto;
+		  padding: 0 2rem;
+		}
+
+		.skills-category {
+		  margin-bottom: 2.5rem;
+		}
+
+		.skills-category h4 {
+		  font-size: 0.75rem;
+		  text-transform: uppercase;
+		  letter-spacing: 2px;
+		  color: #999;
+		  font-weight: 400;
+		  margin-bottom: 1rem;
+		  padding-bottom: 0.5rem;
+		  border-bottom: 1px solid rgba(0,0,0,0.05);
+		}
+
+		.skills-list {
+		  display: flex;
+		  flex-wrap: wrap;
+		  gap: 0.5rem 1.5rem;
+		}
+
+		.skill-item {
+		  font-size: 0.9rem;
+		  color: #444;
+		  position: relative;
+		  padding-left: 0.5rem;
+		  transition: color 0.2s ease;
+		}
+
+		.skill-item::before {
+		  content: '·';
+		  position: absolute;
+		  left: 0;
+		  color: var(--primary-red);
+		  opacity: 0.3;
+		}
+
+		.skill-item:hover {
+		  color: var(--primary-red);
+		}
+
+		/* Ultra-Minimalist Certifications Section */
+		#certifications {
+		  padding: 4rem 0;
+		  background: transparent;
+		}
+		
+		/* Force hide old certification elements */
+		.certification-card,
+		.cert-badge,
+		.cert-issuer,
+		.cert-description,
+		.cert-meta {
+		  display: none !important;
+		}
+
+		#certifications header.major {
+		  text-align: left;
+		  margin-bottom: 2rem;
+		  max-width: 1000px;
+		  margin-left: auto;
+		  margin-right: auto;
+		  padding: 0 2rem;
+		}
+
+		#certifications header.major h2 {
+		  color: #333;
+		  font-size: 1.2rem;
+		  font-weight: 400;
+		  letter-spacing: 1px;
+		  text-transform: uppercase;
+		  padding-bottom: 0.75rem;
+		  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+		}
+
+		.certifications-grid {
+		  max-width: 1000px;
+		  margin: 0 auto;
+		  padding: 0 2rem;
+		}
+
+		.certification-item {
+		  display: grid;
+		  grid-template-columns: 60% 25% 15%;
+		  align-items: baseline;
+		  padding: 0.75rem 0;
+		  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+		  transition: opacity 0.2s ease;
+		}
+
+		.certification-item:hover {
+		  opacity: 0.8;
+		}
+
+		.certification-item:last-child {
+		  border-bottom: none;
+		}
+
+		.cert-name {
+		  font-size: 1rem;
+		  font-weight: 400;
+		  color: #333;
+		  letter-spacing: -0.2px;
+		}
+
+		.cert-id {
+		  font-family: 'SF Mono', 'Monaco', 'Inconsolata', 'Courier New', monospace;
+		  font-size: 0.85rem;
+		  font-weight: 300;
+		  color: #666;
+		  text-align: center;
+		}
+
+		.cert-date {
+		  font-size: 0.85rem;
+		  font-weight: 300;
+		  color: #999;
+		  text-align: right;
+		}
+
+		@media (max-width: 768px) {
+		  .certification-item {
+		    grid-template-columns: 1fr;
+		    gap: 0.3rem;
+		  }
+
+		  .cert-id,
+		  .cert-date {
+		    text-align: left;
+		    font-size: 0.8rem;
+		  }
+		  
+		  /* Skills mobile styles */
+		  .skills-list {
+		    gap: 0.4rem 1rem;
+		  }
+		  
+		  .skill-item {
+		    font-size: 0.85rem;
+		  }
+		  
+		  .skills-category h4 {
+		    font-size: 0.7rem;
+		    letter-spacing: 1.5px;
+		  }
+		}
+
+		/* Impact Metrics Badges */
+		.impact-metrics, .project-metrics {
+		  display: flex;
+		  flex-wrap: wrap;
+		  gap: 0.75rem;
+		  margin-bottom: 1.5rem;
+		  justify-content: flex-start;
+		}
+
+		.impact-metrics .metric, .project-metrics .metric {
+		  background: linear-gradient(135deg, #00A1E0 0%, #1589EE 100%);
+		  color: white;
+		  padding: 0.4rem 0.8rem;
+		  border-radius: 20px;
+		  font-size: 0.85rem;
+		  font-weight: 600;
+		  box-shadow: 0 2px 8px rgba(0, 161, 224, 0.3);
+		  transition: transform 0.2s ease;
+		}
+
+		.impact-metrics .metric:hover, .project-metrics .metric:hover {
+		  transform: translateY(-2px);
+		  box-shadow: 0 4px 12px rgba(0, 161, 224, 0.4);
+		}
+
+		/* Hero Metrics Strip */
+		.hero-metrics {
+		  display: flex;
+		  flex-wrap: wrap;
+		  gap: 1.5rem;
+		  margin: 1.5rem 0;
+		  padding: 1rem 0;
+		  border-top: 1px solid rgba(0, 161, 224, 0.2);
+		  border-bottom: 1px solid rgba(0, 161, 224, 0.2);
+		}
+
+		.hero-metrics .metric-item {
+		  display: flex;
+		  flex-direction: column;
+		  align-items: center;
+		}
+
+		.hero-metrics .metric-value {
+		  font-size: 1.5rem;
+		  font-weight: 700;
+		  color: #00A1E0;
+		}
+
+		.hero-metrics .metric-label {
+		  font-size: 0.85rem;
+		  color: var(--text-light);
+		  text-transform: uppercase;
+		  letter-spacing: 0.5px;
+		}
+
+		/* Enhanced Highlight for Achievements */
+		.publication-card .highlight {
+		  color: #00A1E0;
+		  font-weight: 600;
+		  background: rgba(0, 161, 224, 0.05);
+		  padding: 0.1rem 0.3rem;
+		  border-radius: 3px;
+		}
+
+		/* Ultra-Minimalist Education Section */
+		#education {
+		  padding: 4rem 0;
+		  background: transparent;
+		}
+
+		#education header.major {
+		  text-align: left;
+		  margin-bottom: 2rem;
+		  max-width: 1000px;
+		  margin-left: auto;
+		  margin-right: auto;
+		  padding: 0 2rem;
+		}
+
+		#education header.major h2 {
+		  color: #333;
+		  font-size: 1.2rem;
+		  font-weight: 400;
+		  letter-spacing: 1px;
+		  text-transform: uppercase;
+		  padding-bottom: 0.75rem;
+		  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+		}
+
+		.education-grid {
+		  max-width: 1000px;
+		  margin: 0 auto;
+		  padding: 0 2rem;
+		}
+
+		.education-item {
+		  margin-bottom: 2rem;
+		  transition: opacity 0.2s ease;
+		}
+
+		.education-item:hover {
+		  opacity: 0.8;
+		}
+
+		.education-item:last-child {
+		  margin-bottom: 0;
+		}
+
+		.edu-degree {
+		  font-size: 0.95rem;
+		  font-weight: 450;
+		  color: #333;
+		  margin-bottom: 0.2rem;
+		  letter-spacing: -0.1px;
+		}
+
+		.edu-institution {
+		  font-size: 0.85rem;
+		  font-weight: 300;
+		  color: #666;
+		  letter-spacing: 0;
+		}
+
+		@media (max-width: 768px) {
+		  .education-item {
+		    margin-bottom: 1.5rem;
+		  }
+		  
+		  .edu-degree {
+		    font-size: 0.9rem;
+		  }
+		  
+		  .edu-institution {
+		    font-size: 0.8rem;
+		  }
+		}
+
+		/* Footer */
+		.site-footer {
+		  background: var(--white);
+		  border-top: 1px solid rgba(0,0,0,0.08);
+		  padding: 2rem 0;
+		}
+
+		.site-footer .footer-inner {
+		  max-width: 1200px;
+		  margin: 0 auto;
+		  padding: 0 2rem;
+		  display: flex;
+		  align-items: center;
+		  justify-content: space-between;
+		  gap: 1rem;
+		  flex-wrap: wrap;
+		}
+
+		.site-footer .links {
+		  display: flex;
+		  gap: 1rem;
+		  flex-wrap: wrap;
+		}
+
+		.site-footer a {
+		  color: var(--primary-red);
+		  text-decoration: none;
+		}
+
+		.site-footer a:hover {
+		  text-decoration: underline;
+		}
+
+		/* Responsive Design */
+		@media (max-width: 900px) {
+		  #banner .banner-inner {
+		    flex-direction: column;
+		    text-align: center;
+		    gap: 2rem;
+		  }
+
+		  #banner h1 {
+		    font-size: 2.5rem;
+		  }
+
+		  #banner .image img {
+		    width: 220px;
+		    height: 220px;
+		  }
+
+		  .projects-grid,
+		  .publications-grid {
+		    grid-template-columns: 1fr;
+		  }
+
+		  .publication-card {
+		    flex-direction: column;
+		  }
+
+		  .publication-card .image {
+		    flex: 0 0 100px;
+		    height: 60px;
+		    margin-right: 1rem;
+		    padding: 0.5rem;
+		  }
+
+		  #main .inner {
+		    padding: 0 1rem;
+		  }
+
+		  .research-focus {
+		    padding: 2rem;
+		  }
+
+		  /* Mobile nav behavior */
+		  #header {
+		    position: sticky;
+		    top: 0;
+		  }
+
+		  .mobile-menu-toggle {
+		    display: flex;
+		  }
+
+		  .nav-menu {
+		    display: none;
+		    position: absolute;
+		    right: 1rem;
+		    top: 60px;
+		    background: #fff;
+		    border: 1px solid rgba(0,0,0,0.08);
+		    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+		    border-radius: 12px;
+		    padding: 0.75rem 1rem;
+		    flex-direction: column;
+		    gap: 0.75rem;
+		    z-index: 1001;
+		  }
+
+		  .nav-menu.active {
+		    display: flex;
+		  }
+
+		  /* Mobile flip card adjustments */
+		  .project-card {
+		    height: 350px;
+		  }
+
+		  .project-card .card-back {
+		    padding: 1.5rem;
+		  }
+
+		  .project-card .card-back h3 {
+		    font-size: 1.1rem;
+		  }
+
+		  .project-card .card-back p {
+		    font-size: 0.9rem;
+		  }
+
+		  .project-card .card-back .tech-stack {
+		    gap: 0.3rem;
+		  }
+
+		  .project-card .card-back .tech-tag {
+		    font-size: 0.75rem;
+		    padding: 0.2rem 0.6rem;
+		  }
+		}
+
+		/* Disable flip on touch devices for better UX */
+		@media (hover: none) and (pointer: coarse) {
+		  .project-card:hover .card-inner {
+		    transform: none;
+		  }
+		  
+		  .project-card .card-back {
+		    display: none;
+		  }
+		}
+
+		/* Smooth scrolling */
+		html {
+		  scroll-behavior: smooth;
+		}
+
+		/* Button animations */
+		.button {
+		  transition: all 0.3s ease;
+		}
+
+		.button:hover {
+		  transform: translateY(-2px);
+		}
+		</style>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header" role="navigation" aria-label="Primary">
+									<a href="#banner" class="logo" id="header-logo"><strong>Loading...</strong></a>
+									<nav aria-label="Main">
+										<ul class="nav-menu" id="nav-links">
+											<!-- Navigation links will be loaded dynamically -->
+										</ul>
+									</nav>
+									<button class="mobile-menu-toggle" aria-controls="primary-menu" aria-expanded="false" aria-label="Toggle navigation">
+										<span></span>
+										<span></span>
+										<span></span>
+									</button>
+								</header>
+
+							<!-- Banner -->
+								<section id="banner">
+								  <div class="banner-inner">
+								    <div class="content">
+								      <h1 id="profile-name">Loading...</h1>
+								      <h2 id="profile-title">Loading...</h2>
+								      <p id="profile-intro"></p>
+								      <div class="hero-metrics" id="hero-metrics">
+								        <!-- Metrics will be loaded dynamically -->
+								      </div>
+								      <p id="profile-background"></p>
+									  <p id="profile-research"></p>
+								      <a href="#" id="cv-button" class="button">Download CV</a>
+								    </div>
+								    <div class="image">
+								      <img src="" alt="" id="profile-image" />
+								    </div>
+								  </div>
+								</section>
+
+							<!-- Research Focus -->
+							<!-- <div id="research" class="research-focus">
+								<h3>Research Focus</h3>
+								<p>My research lies at the intersection of AI-driven decision-making, cognitive alignment, and healthcare applications. I design frameworks that bridge the gap between how humans think and how AI reasons, ensuring models are not only accurate but also psychologically aligned and trustworthy. This spans from building cognitive alignment frameworks (ICPAF) and simulating human decision-making in disasters, to applying RAG pipelines and LLM fine-tuning in maternal healthcare and developing LLM-based adaptive intervention systems (DeLLMa) for real-world decision influence.</p>
+							</div> -->
+
+							<!-- Professional Experience Section -->
+							<section id="publications">
+								<header class="major">
+									<h2>Professional Experience</h2>
+								</header>
+								<!-- <p>My research lies at the intersection of AI-driven decision-making, cognitive alignment, and healthcare applications. I design frameworks that bridge the gap between how humans think and how AI reasons, ensuring models are not only accurate but also psychologically aligned and trustworthy. </p> -->
+							
+								<div id="publications-grid" class="publications-grid">
+									<!-- Publications will be loaded dynamically -->
+								</div>
+							</section>
+
+							<!-- Projects Section (Minimal) -->
+							<section id="projects">
+								<header class="major">
+									<h2>Selected Projects</h2>
+								</header>
+								<div id="projects-grid" class="projects-grid">
+									<!-- Projects will be loaded dynamically -->
+								</div>
+							</section>
+
+							<!-- Skills Section -->
+							<section id="skills">
+								<header class="major">
+									<h2>Technical Skills</h2>
+								</header>
+								<div id="skills-container" class="skills-container">
+									<!-- Skills will be loaded dynamically -->
+								</div>
+							</section>
+
+							<!-- Certifications Section -->
+							<section id="certifications">
+								<header class="major">
+									<h2>Certifications</h2>
+								</header>
+								<div id="certifications-grid" class="certifications-grid">
+									<!-- Certifications will be loaded dynamically -->
+								</div>
+							</section>
+
+							<!-- Education Section -->
+							<section id="education">
+								<header class="major">
+									<h2>Education</h2>
+								</header>
+								<div id="education-grid" class="education-grid">
+									<!-- Education will be loaded dynamically -->
+								</div>
+							</section>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="assets/js/profile-loader.js?v=6"></script>
+			<script>
+		// Mobile menu toggle with aria-expanded update
+		(function() {
+		  var toggle = document.querySelector('.mobile-menu-toggle');
+		  var menu = document.getElementById('primary-menu');
+		  if (toggle && menu) {
+		    toggle.addEventListener('click', function() {
+		      var isOpen = menu.classList.toggle('active');
+		      toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+		    });
+		    // Close menu when a link is clicked (mobile)
+		    menu.addEventListener('click', function(e) {
+		      if (e.target.tagName.toLowerCase() === 'a') {
+		        menu.classList.remove('active');
+		        toggle.setAttribute('aria-expanded', 'false');
+		      }
+		    });
+		  }
+		})();
+		</script>
+
+	</body>
+</html>

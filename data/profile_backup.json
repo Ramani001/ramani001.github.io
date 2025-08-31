@@ -1,0 +1,286 @@
+{
+  "profile": {
+    "name": "Vidhi Jain",
+    "title": "Machine Learning Researcher",
+    "organization": "Carnegie Mellon University",
+    "profileImage": "images/pic12.jpg",
+    "cvPath": "assets/Vidhi_Jain_CV.pdf"
+  },
+  
+  "bio": {
+    "introduction": "I am a <span class=\"highlight\">Machine Learning</span> graduate student at CMU, working under <span class=\"highlight\">Professor Aarti Singh (NSF AI-SDM)</span>. My research focuses on <span class=\"highlight\">AI-driven decision-making</span>, <span class=\"highlight\">cognitive alignment</span>, and <span class=\"highlight\">multimodal systems</span>.",
+    "background": "Previously, I worked at <span class=\"highlight\">Wells Fargo</span> as a machine learning engineer, and I received my bachelor's in electrical engineering with a minor in AI from Netaji Subhas University of Technology.",
+    "researchFocus": "My research lies at the <span class=\"highlight\">intersection of AI-driven decision-making, cognitive alignment, and healthcare applications</span>. I design frameworks that bridge the gap between <span class=\"highlight\">how humans think and how AI reasons</span>, ensuring models are not only accurate but also psychologically aligned and trustworthy."
+  },
+  
+  "contact": {
+    "email": "vidhij@andrew.cmu.edu",
+    "linkedin": "https://www.linkedin.com/in/vidhijain23/",
+    "github": "https://github.com/vidhsss/",
+    "googleScholar": "https://scholar.google.com/citations?hl=en&user=l3j5XvsAAAAJ",
+    "twitter": null,
+    "website": "https://vidhij.com"
+  },
+  
+  "navigation": [
+    {"label": "About", "href": "#banner"},
+    {"label": "Contact", "href": "mailto:vidhij@andrew.cmu.edu"}
+  ],
+  
+  "publications": [
+    {
+      "id": "mind-the-gap",
+      "title": "Mind the Gap: Bridging AI-Human Cognitive Misalignment Through Psychological Personas",
+      "authors": "V Jain* et al",
+      "venue": "AAAI [in review]",
+      "description": "This addresses the critical challenge of AI-human cognitive misalignment by developing psychological personas that bridge the gap between artificial intelligence systems and human cognitive processes.",
+      "image": "images/icpaf.png",
+      "links": {
+        "paper": null,
+        "github": null,
+        "status": "In Review"
+      }
+    },
+    {
+      "id": "contextual-bandits",
+      "title": "Contextual Bandits with Online Arm Generation",
+      "authors": "J. Xu*, V. Jain*",
+      "venue": "NeurIPS [in review]",
+      "description": "Explores contextual bandits with online arm generation, presenting novel approaches to dynamic decision-making in machine learning systems.",
+      "image": "images/neurips.png",
+      "links": {
+        "paper": null,
+        "github": null,
+        "status": "In Review"
+      }
+    },
+    {
+      "id": "ambient-intelligence",
+      "title": "Ambient Intelligence-based multimodal human action recognition for autonomous systems",
+      "authors": "V Jain* et al",
+      "venue": "ISA Transactions [Paper]",
+      "description": "Presents a method based on Bi-Convolutional Recurrent Neural Network (Bi-CRNN)-based Feature Extraction and Random Forest classification for human action recognition in autonomous robots.",
+      "image": "images/pic01.jpg",
+      "links": {
+        "paper": "https://www.sciencedirect.com/science/article/abs/pii/S0019057822005638",
+        "github": null,
+        "status": "Published"
+      }
+    },
+    {
+      "id": "maternal-health",
+      "title": "Maternal Health Agent",
+      "authors": null,
+      "venue": "Research Project",
+      "description": "Designed safety-critical RAG pipelines with HNSW indexing, hybrid semantic chunking, and multi-stage reranking, achieving +18% retrieval relevance and –25% latency using vLLM. Integrated emergency-aware reasoning framework with symptom triage, intent classification, and medical guardrails with knowledge distillation of open-source LLMs (med-alpacca, llama).",
+      "image": "images/maternal.png",
+      "links": {
+        "paper": null,
+        "github": "https://github.com/vidhsss/Maternal_Agent",
+        "status": null
+      }
+    },
+    {
+      "id": "human-perception",
+      "title": "Explainability Analysis on Human Perception Models",
+      "authors": null,
+      "venue": "Research Project",
+      "description": "Created CNN-based visual perception models, leveraging activation maximization, class model visualization, integrated gradients, and saliency maps to enhance explainability. Applied Transformer models (Vision Transformer, Perceiver IO) for multisensory human perception, utilizing model-agnostic techniques (SHAP, LIME, Captum) and attention rollout to improve interpretability.",
+      "image": "images/pic01.jpg",
+      "links": {
+        "paper": null,
+        "github": "https://github.com/vidhsss/Human-perception",
+        "status": null
+      }
+    },
+    {
+      "id": "behavior-analysis",
+      "title": "Multiscale Kernels for Identifying Systematic Behavior Patterns",
+      "authors": null,
+      "venue": "Research Project",
+      "description": "Developed a method for identifying systematic behavior in data analysis by transforming raw accelerometer and gyroscope data using multi-scale CNN layers. Captures stationary and non-stationary features across time windows for improved behavior pattern recognition.",
+      "image": "images/pic02.jpg",
+      "links": {
+        "paper": null,
+        "github": "https://github.com/rsankar9/Behavior_analysis",
+        "status": null
+      }
+    }
+  ],
+  
+  "projects": [
+    {
+      "id": "neurascribe",
+      "title": "Neurascribe",
+      "year": "2025",
+      "shortDescription": "A voice-to-voice knowledge graph-based journaling-wellness platform that integrates memory weaving and episodic memory recall",
+      "detailedDescription": "A voice-to-voice journaling-wellness platform that integrates memory weaving and episodic memory recall, leveraging hybrid retrieval from vector embeddings (Pinecone) and knowledge graphs, reducing latency by 40% using vLLMs. Implemented multi-stage reranking pipeline with emotional inference and fine-tuned LLMs using LoRA adaptation.",
+      "media": {
+        "type": "video",
+        "src": "images/neurascribe.mp4",
+        "poster": null,
+        "autoplay": true,
+        "loop": true,
+        "muted": true
+      },
+      "techStack": [
+        "Knowledge Graphs",
+        "vLLMs",
+        "Pinecone",
+        "Memory Weaving",
+        "Episodic Memory Recall",
+        "Emotional Inference",
+        "LoRA"
+      ],
+      "links": {
+        "website": "https://neurascribe.ai/",
+        "github": null,
+        "details": null
+      }
+    },
+    {
+      "id": "cognitive-speech",
+      "title": "Cognitive Multimodal Speech Recognition",
+      "year": "2025",
+      "shortDescription": "Multimodal lip-reading + self-supervised audio with knowledge distillation.",
+      "detailedDescription": "Built multimodal pipeline combining vision (Transformer lip-reading, ViT-B/16) and self-supervised audio (HuBERT, wav2vec 2.0). Applied knowledge distillation to compress large multimodal models, reducing size by 60% with minimal WER/CER drop.",
+      "media": {
+        "type": "video",
+        "src": "",
+        "poster": "images/speech.png",
+        "controls": true,
+        "muted": true
+      },
+      "techStack": [
+        "PyTorch",
+        "Transformers",
+        "Computer Vision",
+        "Audio pipeline",
+        "Knowledge Distillation"
+      ],
+      "links": {
+        "website": null,
+        "github": "https://github.com/vidhsss/human_speech",
+        "details": null
+      }
+    },
+    {
+      "id": "needle",
+      "title": "Needle",
+      "year": "2024",
+      "shortDescription": "A full-stack deep learning library from scratch with Cuda-accelerated operations and automatic differentiation.",
+      "detailedDescription": "Designed and implemented a full-stack deep learning library from scratch with Cuda-accelerated operations and automatic differentiation. Developed modular components, including parameterized layers, loss functions, optimizers, and data loaders. Built state-of-the-art models: CNNs, RNNs, and Transformers for tasks such as image classification and language modeling.",
+      "media": {
+        "type": "image",
+        "src": "images/needle.png",
+        "poster": null
+      },
+      "techStack": [
+        "Python",
+        "Cuda",
+        "Automatic Differentiation",
+        "Parameterized Layers",
+        "Loss Functions",
+        "Optimizers",
+        "Data Loaders"
+      ],
+      "links": {
+        "website": null,
+        "github": "https://github.com/vidhsss/needle",
+        "details": null
+      }
+    },
+    {
+      "id": "hamml",
+      "title": "Hybrid Attention Multi-modal Learning for Perceived Mental Workload Classification",
+      "year": "2022",
+      "shortDescription": "Hybrid attention fusion across modalities for workload prediction.",
+      "detailedDescription": "The project is based on the applicability of the brain-computer interface using multimodal biosignals and attention networks for quantifying cognitive load in well-validated problem-solving tasks. The proposed approach firstly models each modality through LSTM and Convolution based self-attention. Then it applies bi-modal attention to pairwise modalities and tries to learn the contributing features amongst them. It gives an accuracy of 92.3%.",
+      "media": {
+        "type": "image",
+        "src": "images/pic06.jpg",
+        "poster": null
+      },
+      "techStack": [
+        "LSTM",
+        "Convolution",
+        "Bi-modal Attention",
+        "PyTorch",
+        "Self-attention"
+      ],
+      "links": {
+        "website": null,
+        "github": null,
+        "details": "#"
+      }
+    },
+    {
+      "id": "agri-ai",
+      "title": "Agri AI",
+      "year": "2021",
+      "shortDescription": "Intelligent crop monitoring system using computer vision and ML to predict yields, detect diseases, and optimize farming practices.",
+      "detailedDescription": "Deployed an end-to-end web application to assist farmers in administering their crop quality, suggesting crop price, and predicting the yield taking into account the soil and crop type, all by the comfort of a click of a button. Used CatBoost Classifier, Gaussian Naïve Bayes Model, MobileNet, Random Forest Regressor, and Deep bidirectional LSTM Models one for each feature in the project. The aggregate accuracy achieved by the 5 Models is 91%.",
+      "media": {
+        "type": "image",
+        "src": "images/pic04.jpg",
+        "poster": null
+      },
+      "techStack": [
+        "CatBoost",
+        "TensorFlow",
+        "OpenCV",
+        "IoT",
+        "MobileNet"
+      ],
+      "links": {
+        "website": null,
+        "github": "https://github.com/vidhsss/Agri-AI",
+        "details": null
+      }
+    },
+    {
+      "id": "covi-bot",
+      "title": "Covi Home Bot",
+      "year": "2021",
+      "shortDescription": "Home triage assistant for COVID-era symptom checks and resources.",
+      "detailedDescription": "AI-powered chatbot providing real-time COVID-19 symptom assessment, resource recommendations, and emergency guidance during the pandemic.",
+      "media": {
+        "type": "video",
+        "src": "images/covid.mp4",
+        "poster": "images/pic05.jpg",
+        "autoplay": true,
+        "loop": true,
+        "muted": true
+      },
+      "techStack": [
+        "Python",
+        "NLP",
+        "Dialogflow",
+        "Flask",
+        "BERT",
+        "Elasticsearch"
+      ],
+      "links": {
+        "website": null,
+        "github": null,
+        "details": "#"
+      }
+    }
+  ],
+  
+  "siteConfig": {
+    "siteTitle": "Vidhi Jain",
+    "favicon": null,
+    "themeColors": {
+      "primaryRed": "#C41230",
+      "lightRed": "#e63946",
+      "darkRed": "#a01828",
+      "textDark": "#2b2d42",
+      "textLight": "#6c757d",
+      "bgLight": "#f8f9fa",
+      "white": "#ffffff"
+    },
+    "domain": "vidhij.com",
+    "googleAnalytics": null
+  }
+}
