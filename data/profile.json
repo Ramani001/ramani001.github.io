@@ -72,7 +72,7 @@
       "id": "stryker",
       "title": "Salesforce Administrator",
       "authors": "Stryker | Ohio, USA",
-      "venue": "Dec 2019 - Dec 2021",
+      "venue": "Dec 2020 - Dec 2021",
       "description": "<div class='impact-metrics'><span class='metric'>30% Task Automation</span><span class='metric'>99% Data Accuracy</span><span class='metric'>25% Process Efficiency</span><span class='metric'>20% Reporting Accuracy</span></div><br/><strong>Key Achievements:</strong><br/>• <strong>Automated Salesforce workflows</strong> by developing Process Builder flows, Apex triggers, approval processes, and business logic rules—<span class='highlight'>streamlining operations, reducing manual tasks by 30%</span>, and <span class='highlight'>improving process efficiency by 25%</span><br/>• <strong>Customized and maintained</strong> Salesforce CRM (Sales & Service Cloud) with Visualforce pages, custom objects, security controls, validation rules, and large-scale data migrations using Data Loader and SQL Server—<span class='highlight'>ensuring 99% data accuracy</span> and system stability<br/>• <strong>Delivered insights and adoption</strong> by building reports/dashboards, cleansing data, and conducting stakeholder sessions—<span class='highlight'>boosting reporting accuracy by 20%</span> and <span class='highlight'>increasing user adoption by 15%</span>",
       "image": "images/stryker-logo.png",
       "links": {
@@ -444,4 +444,5 @@
     "domain": "ramani-mahidara.com",
     "googleAnalytics": null
   }
+
 }
